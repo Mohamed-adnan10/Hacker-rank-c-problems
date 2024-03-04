@@ -16,9 +16,7 @@ int main()
 /***
      * char ch,s[100],sec[200];
         scanf("%c", &ch);
-        fflush(stdin);fflush(stdout);
         scanf("%s", &s);
-        fflush(stdin);fflush(stdout);
-        scanf("%[^\n]%*c", &sec);
+        scanf(" %[^\n]%*c", &sec);
         printf("%c \n%s \n%s \n", ch, s, sec); 
     */
